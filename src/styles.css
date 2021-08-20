@@ -1,0 +1,60 @@
+.App{
+  width: 450px;
+  margin: auto;
+}
+.form {
+  display: flex;
+}
+.header{
+  font-size: 24px;
+  text-align: center;
+  border-bottom: solid 1px #634BF5;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #634BF5;
+}
+.todo-text {
+  flex: 1;
+}
+.favorite{
+  padding: 0 30px;
+}
+.selected{
+  background-color: #f1ed75;
+}
+.selected .favorite button {
+  color: #FFD231
+}
+.action {
+  padding-right: 15px;
+}
+.action button {
+  color: red;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.favorite button {
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.form input{
+  flex: 1;
+}
+.form button{
+  background-color: #634BF5;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  margin-left: 15px;
+}
